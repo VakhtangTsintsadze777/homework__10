@@ -1,0 +1,65 @@
+/* 768px - 481px */
+
+@media (max-width: 749px) {
+    .section2 {
+        margin: 50px 10px;
+    }
+}
+
+@media (max-width: 744px) {
+
+    header {
+        padding: 24px 24px;
+    }
+
+    .fa-bars {
+        display: flex;
+        font-size: 40px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .section2 {
+        display: block;
+        margin: auto;
+        row-gap: 20px;
+    }
+
+    .article1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .articlediv {
+        display: flex;
+        justify-content: center;
+    }
+
+    span {
+        text-align: center;
+    }
+
+    h4 {
+        margin-top: 50px;
+    }
+
+    .section3 {
+        display: block;
+    }
+
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+/* 744px is qvemot agar gamomdis */
